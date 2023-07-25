@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+
+    all-in-one:
+        image: apitable/all-in-one:latest
+        container_name: apitable                
+        volumes:
+            - ./apitable:/apitable
+        ports:
+            - '8200:80'
+        restart: unless-stopped    
+
