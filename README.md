@@ -1,6 +1,6 @@
 # apitable
 Apitable - CRM - Docker compose
 
-Ver en "localhost:80"
+Ver en "localhost:8200"
 
 
